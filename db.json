@@ -1,14 +1,37 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "response":
+  {
+    "storeId": "650",
+    "availableProducts": [
+      {
+        "product": 123456,
+        "description": "Product Description",
+        "shelfCapacity": 24,
+        "recommendedUnits": 14,
+        "shelfLife": 3,
+        "thawTime": 120,
+        "ordering": 1
+      }
+    ],
+    "actionedProducts": [
+      {
+        "product": 123456,
+        "sequence": 0,
+        "ordering": 1,
+        "unitsThawed": 12,
+        "batchCodes": "ABC56;DEF456",
+        "thawTime": 120,
+        "shelfLife": 3,
+        "bestBeforeDate": "2023-10-25T00:00:00",
+        "serveTime": "2023-10-25T12:00:00",
+        "startThawAt": "2023-10-25T10:00:00",
+        "startThawBy": "40004321",
+        "printedBy": "40001234",
+        "printedAt": "2023-10-25T12:08:00",
+        "numberOfLabelsPrinted": 14
+      }
+    ],
+    "createdTimestamp": "2023-10-25T04:00:00",
+    "lastUpdatedTimestamp": "2023-10-25T10:00:00"
   }
 }
